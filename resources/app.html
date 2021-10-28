@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>MyGraphs</title>
+		<!-- Load the JavaScript files required for the application -->
+		<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+		<script src = "prims.js"></script>
+		<script src = "kruskals.js"></script>
+		<script src = "routeinspection.js"></script>
+		<script src = "graph_classes.js"></script>
+		<script src = "gui_script.js"></script>
+		<script src = "export.js"></script>
+		<!-- Load the CSS file -->
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	
+	<body>
+		<!-- Create the HTML elements in the GUI -->
+		<div id = "content">
+			<div id = "button-row">
+				<button id = "add-vertex">Add Vertex</button>
+				<button id = "add-edge">Add Edge</button>
+				<button id = "properties">Properties</button>
+			</div>
+			
+			<div id = "text-area">
+				<div id = "message-box"></div>
+				<div id = "error-box"></div>
+			</div>
+			
+			<div id = "editor">
+				<canvas id = "app-canvas" width = "800" height = "600">
+				</canvas>
+			</div>
+			
+			<div id = "bottom-row">
+				<button id = "export">Export as Image</button>
+				<button id = "save">Save to Cloud</button>
+			</div>
+		</div>
+	</body>
+</html>

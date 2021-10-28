@@ -1,0 +1,38 @@
+body {
+	color: black;
+	background-color: #f6f6f6;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	text-align: center;
+}
+
+button {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	margin: 1px;
+}
+
+input {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+/* Prevents newlines in HTML causing spaces between the buttons */
+#button-row {
+	font-size: 0;
+}
+
+#error-box {
+	color: red;
+}
+
+#content {
+	width: 800px;
+	display: inline-block;
+}
+
+#text-area {
+	overflow: hidden;
+	height: 120px;
+}
+
+#message-box {
+	height: 80px;
+}
